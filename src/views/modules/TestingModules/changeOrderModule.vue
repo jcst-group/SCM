@@ -114,13 +114,13 @@
                     {
                         title: () => {
                             return (
-                                <div>
+                                `<div>
                                     <span style='color:red'>*</span>费用名称
                                     <a-icon
                                         type="plus"
                                         style='color:#2d8cf0;cursor:pointer;margin-left:10px'
                                         onclick={this.addFee}/>
-                                </div>
+                                </div>`
                             )
                         },
                         dataIndex: 'feeName',
@@ -129,9 +129,9 @@
                     {
                         title: () => {
                             return (
-                                <div>
+                                `<div>
                                     <span style='color:red'>*</span>费用单位
-                                </div>
+                                </div>`
                             )
                         },
                         dataIndex: 'feeUnit',
@@ -140,9 +140,9 @@
                     {
                         title: () => {
                             return (
-                                <div>
+                                `<div>
                                     <span style='color:red'>*</span>费用单价(元)
-                                </div>
+                                </div>`
                             )
                         },
                         dataIndex: 'feePrice',
@@ -151,9 +151,9 @@
                     {
                         title: () => {
                             return (
-                                <div>
+                                `<div>
                                     <span style='color:red'>*</span>使用数量
-                                </div>
+                                </div>`
                             )
                         },
                         dataIndex: 'intOne',
@@ -162,9 +162,9 @@
                     {
                         title: () => {
                             return (
-                                <div>
+                                `<div>
                                     费用总价(元)
-                                </div>
+                                </div>`
                             )
                         },
                         dataIndex: 'feeSum',

@@ -91,9 +91,7 @@ export default {
                 {
                     title:() => {
                         return (
-                            <span>
-                                系统保险申请单号<br/>（保险相关 + 自增）
-                            </span>
+                            '<span>系统保险申请单号<br/>（保险相关 + 自增）</span>'
                         )
                     },
                     dataIndex: 'insuranceOrder',
